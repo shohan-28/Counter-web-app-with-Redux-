@@ -28,6 +28,10 @@ const CounterUi = () => {
     return (
         <div className=' container mx-auto space-y-5'>
 
+            <div className='flex justify-center items-center text-black bg-amber-400 rounded-md text-4xl font-bold h-[80px]'>
+                <p>Multicounter Practice with Redux</p>
+            </div>
+
             {/* CARD ONE */}
 
             <div className='space-y-2 px-15 py-8 flex flex-col justify-center items-center shadow-md'>
