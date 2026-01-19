@@ -1,5 +1,7 @@
 import './App.css'
 import CounterUi from './counterui/counterui'
+import Post from './counterui/post';
+
 
 
 
@@ -9,6 +11,7 @@ function App() {
  
     <>
       <CounterUi></CounterUi>
+      <Post></Post>
     </>
   )
 }

@@ -20,14 +20,14 @@ const postSlice = createSlice({
   name: "post",
   initialState: {
     loading: false,
-    post: null,
+    post: [],
     error: null,
     success: false,
   },
   reducers: {
     resetPostState: (state) => {
       state.loading = false;
-      state.post = null;
+      state.post = [];
       state.error = null;
       state.success = false;
     },
