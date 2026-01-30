@@ -23,7 +23,7 @@ const Post = () => {
         content = <ul>{posts.map(post => <li key={post.id}>{post.title}</li>)}</ul>
     }
     return (
-        <div>
+        <div className='flex flex-col justify-center items-center text-center'>
             {content}
         </div>
     );
